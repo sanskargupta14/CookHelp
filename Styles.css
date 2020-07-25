@@ -1,0 +1,82 @@
+body{
+  background-color: #f5f5dc;
+  }
+  .Heading-01{
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Jazz LET' fantasy;
+  font-style: normal;
+  color:#98cb00;
+}
+.nav-wrapper{
+  display: inline;
+  justify-content: space-between;
+}
+.nav-wrapper a{
+  text-decoration: none;
+  font-size: 35px;
+  font-family: monospace;
+  color: #7db3fe;
+  padding: 25px;
+
+}
+.nav-wrapper a:hover{
+  color: #98cb00;
+  border-bottom: 10px #7db2fe;
+}
+.nav-wrapper a:active{
+  color:#98cb00;
+}
+.para-01{
+  font-size: 25px;
+  padding-left: 25px;
+  padding-top: 35px;
+  padding-right: 35px;
+  font-family: 'Trebuchet MS';
+}
+.para-01 p{
+color: #222;
+}
+.login-icon{
+  float: right;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.login-icon a{
+  color: #333;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Trebuchet MS';
+}
+.menu-icon{
+  display: block;
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  height: 15px;
+  width: 15px;
+}
+.imge{
+  height: 45px;
+  width: 45px;
+}
+.imges {
+  border-radius: 25px;
+  width: 500px;
+  height: 200px;
+  margin-left: 35px;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  position: relative;
+  text-align: center;
+  color: black;
+}
+.Ingredients{
+  font-size: 30px;
+  font-family: 'Trebuchet MS';
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%,-75%);
+
+}
